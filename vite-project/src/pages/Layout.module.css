@@ -1,0 +1,59 @@
+.LayoutDiv {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.LayoutHeader {
+  background-color: rgb(43, 43, 43);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  color: white;
+  z-index: 100;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.LayoutMain {
+  margin-top: 100px;
+}
+
+.LayoutHeader h1 {
+  background: linear-gradient(120deg, #00c3ff, #ff00ea);
+  font-family: "Outfit", serif;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 0px 50px;
+  height: 100%;
+  align-content: center;
+}
+
+.AuthButtonDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.LogInButton {
+}
+
+.SignUpButton {
+  background-color: transparent;
+}
+
+.LogInButton h3 {
+  font-family: "Outfit", serif;
+  font-weight: 500;
+}
+
+.SignUpButton h3 {
+  font-family: "Outfit", serif;
+  font-weight: 500;
+  color: #a1a1a1;
+}
